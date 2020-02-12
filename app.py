@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
+from flask_cors import CORS
 import os
 # python module to deal with file path (to pinpoint where our db file is)
 
 # Init app
 app= Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
+CORS(app) 
 
 # Database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:rc@localhost/rest'
@@ -49,7 +51,7 @@ def add_product():
   
   new_product = Product(name, description, price, qty)
 
-  db.session.add(new_product)
+  db.session.add(new_product) 
   db.session.commit()
 
   return product_schema.jsonify(new_product)
