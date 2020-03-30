@@ -13,10 +13,9 @@ $ python
 
 #Runserver
 $ python app.py
-
+```
 Then head to
 http://localhost:5000 in your browser to get started.
-```
 
 # EndPoints
 ```
