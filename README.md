@@ -4,7 +4,6 @@
 This project was built with Python, Flask-SqlAlchemy, Marshmallow, and PostgreSQL
 
 ```
-$ virtualenv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
 $ python
