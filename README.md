@@ -21,9 +21,9 @@ http://localhost:5000 in your browser to get started.
 
 # EndPoints
 ```
-GET ==> /api/product\
-GET ==> /api/product/:id\
-POST ==> /api/product\
-PUT ==> /api/product/:id\
-DELETE ==> /api/product/:id\
+GET ==> /api/product
+GET ==> /api/product/:id
+POST ==> /api/product
+PUT ==> /api/product/:id
+DELETE ==> /api/product/:id
 ```
