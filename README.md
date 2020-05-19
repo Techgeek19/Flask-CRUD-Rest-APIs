@@ -1,4 +1,4 @@
-# CRUD-Rest-APIs
+# Flask CRUD-Rest-APIs
 
 ## Setting up
 This project was built with Python, Flask-SqlAlchemy, Marshmallow, and PostgreSQL
